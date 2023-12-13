@@ -1,0 +1,130 @@
+
+
+ body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+ }
+ /* Main container */
+#container{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    background-image: url("Assets/2.jpg");
+    position: relative;
+}
+#container > img {
+    width: 100%;
+    height: 45%;
+    filter: brightness(30%)
+}
+/* First Section */
+#first_part{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    margin-top: 20px;
+  
+}
+#btns {
+    display: flex;
+    justify-content: space-around;
+}
+#btns > a {
+    margin-right: 70%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px
+}
+#btns > button {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    background: #ba225c;
+    border-radius: 20px;
+    border: 1px solid #ba225c;
+    padding: 3px 10px;
+}
+#content_one {
+    color: #fff;
+}
+#center_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px; 
+}
+#center_content > p {
+    line-height: 16px;
+}
+#btn-first {
+    text-decoration: none;
+    color: #fff;
+    background: #27abe8;
+    border-radius: 20px;
+    border: 1px solid #27abe8;
+    padding: 3px 10px;
+    font-size: small;
+}
+/* Second Section*/
+#second_part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#second_part > .content_two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.images{
+    width: 180px;
+    overflow: hidden;
+}
+.images > img{
+    width: 170px;
+}
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.second-btn{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 3px 25px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border: 2px solid #27abe8;
+}
+.black{
+     color: #021d27;   
+}
+.black:hover{
+    color: #fff; 
+    background-color: #27abe8;
+    transition-duration: .2s;
+}
+.first_btn{
+    background: #27abe8; 
+    border: none; 
+    padding: 5px 15px; 
+    color: #fff;
+}
+.gallery > .images {
+    margin-right: 40px;
+}
+.img1, .img2{
+    display: flex;
+}
